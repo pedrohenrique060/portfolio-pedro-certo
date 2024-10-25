@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Pedro Henrique</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-toggle">
+                <span class="navegacao"></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">| Inicio |</a></li>
+                <li><a href="sobre.html">| Sobre | </a></li>
+                <li><a href="habilidades.html">| Habilidades |</a></li>
+                <li><a href="portfolio.html">| Projetos |</a></li>
+                <li><a href="contato.html">| Contato |</a></li>
+                <li><a href="hard.html">| Hard Skills |</a></li>
+            </ul>
+        </nav>
+        <button id="toggle-theme"><img width="30px" id="toggle-img" src="sun.png" alt=""></button>
+
+    </header>
+
+    <main>
+        <section id="portfolio">
+            <h1>Meus Projetos</h1>
+
+            <div class="slider-container">
+                <div class="slider-wrapper">
+                    <div class="slide">
+                        <img src="Ogani.png" alt="Projeto 3">
+                        <div class="slide-description">
+                            <h3>Ogani</h3>
+                            <p>Reprodução de um site de delivery feito por mim.</p>
+                            <p>Link Github: https://github.com/pedrohenrique060</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="cisco.png" alt="Projeto 2">
+                        <div class="slide-description">
+                            <h3>Cisco Packet Tracer</h3>
+                            <p>Curso Cisco concluído</p>
+                            <p>Link Github: https://github.com/pedrohenrique060</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="cisco.png" alt="Projeto 2">
+                        <div class="slide-description">
+                            <h3>Cisco Packet Tracer</h3>
+                            <p>Curso Cisco concluído</p>
+                            <p>Link Github: https://github.com/pedrohenrique060</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <button class="prev-slide" onclick="moveSlide(-1)">&#10094;</button>
+            <button class="next-slide" onclick="moveSlide(1)">&#10095;</button>
+        </section>
+    </main>
+
+    <footer>
+        <section id="contato-info">
+            <div class="contact-details">
+                <img src="email3.png" width="80px" height="80px" alt=""><p><a href="mailto:pedrobarroso2006@gmail.com">pedrobarroso2006@gmail.com</a></p> 
+                <img src="tel3.png" width="80px" height="80px" alt=""><p><a href="tel:+5531984562121">(31) 98456-2121</a></p>
+            </div>
+        </section>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
